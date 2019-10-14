@@ -1,0 +1,25 @@
+{
+  "name": "humped",
+  "version": "1.0.0",
+  "description": "Playing around with Next.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kscott7/humped.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kscott7/humped/issues"
+  },
+  "homepage": "https://github.com/kscott7/humped#readme",
+  "dependencies": {
+    "next": "^9.1.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  }
+}
