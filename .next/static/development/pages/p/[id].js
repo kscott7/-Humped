@@ -2944,13 +2944,7 @@ var Post = function Post(props) {
       lineNumber: 6
     },
     __self: this
-  }, props.munro.name), __jsx("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, props.munro.height));
+  }, props.munro.name));
 };
 
 Post.getInitialProps =
@@ -2975,7 +2969,6 @@ function () {
 
           case 6:
             munro = _context.sent;
-            // console.log(`Munro in context: ${id}`);
             console.log(res);
             return _context.abrupt("return", {
               munro: munro

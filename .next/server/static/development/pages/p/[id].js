@@ -156,21 +156,14 @@ const Post = props => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["def
     lineNumber: 6
   },
   __self: undefined
-}, props.munro.name), __jsx("p", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 7
-  },
-  __self: undefined
-}, props.munro.height));
+}, props.munro.name));
 
 Post.getInitialProps = async function (context) {
   const {
     id
   } = context.query;
   const res = await isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2___default()(`https://munroapi.herokuapp.com/munros/name/${id}`);
-  const munro = await res.json(); // console.log(`Munro in context: ${id}`);
-
+  const munro = await res.json();
   console.log(res);
   return {
     munro
